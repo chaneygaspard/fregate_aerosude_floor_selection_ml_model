@@ -1,0 +1,45 @@
+
+📊 EXTENDED ML TRAINING DATA ANALYSIS REPORT
+============================================================
+
+ DATASET OVERVIEW (Extended Format):
+   - Total CSV files: 60
+   - Total messages collected: 451,205
+   - Total data size: 998.1 MB
+   - Average messages per tag: 7520
+   - Data source: ml_training_data_exte_new/
+
+ FLOOR DISTRIBUTION:
+   - Downstairs tags: 30
+   - Mezzanine tags: 30
+
+ MESSAGE STATISTICS:
+   - Highest message count: 8,500 (Tag: ebc3d8c27268...)
+   - Lowest message count: 2,064 (Tag: cfcba5a4aa8c...)
+   - Median message count: 8500
+   - Standard deviation: 1602
+
+ FILE SIZE STATISTICS:
+   - Largest file: 20.4 MB
+   - Smallest file: 4.4 MB
+   - Average file size: 16.6 MB
+
+ DATA QUALITY:
+   - Files with >1000 messages: 60 (100.0%)
+   - Files with >2000 messages: 60 (100.0%)
+   - Files with <500 messages: 0 (0.0%)
+
+ EXTENDED DATA FEATURES:
+   - Comprehensive anchor data (~240 anchors per message)
+   - Real anchor coordinates from database
+   - Enhanced positioning metadata
+   - Compatible with ml_training_data/ format
+
+ Generated visualizations saved to: visualizations_exte/
+   - message_distribution.png
+   - spatial_distribution.png  
+   - correct_positioning.png
+   - incorrect_positioning.png
+   - anchor_coverage_analysis.png
+
+Generated on: 2025-09-30 20:23:04
